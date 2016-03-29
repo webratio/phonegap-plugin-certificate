@@ -25,7 +25,7 @@ SOFTWARE.
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="de.martinreinhardt.cordova.plugins.certificates"
-      version="0.4.0">
+      version="0.4.0.1wr">
 
     <name>CDVCertificate</name>
     <description>
@@ -34,8 +34,7 @@ SOFTWARE.
     <author>Martin Reinhardt</author>
     <license>MIT</license>
     <keywords>cordova,certificates,ssl</keywords>
-    <repo>https://github.com/hypery2k/cordova-certificate-plugin.git</repo>
-    <issue>https://github.com/hypery2k/cordova-certificate-plugin/issues</issue>
+    <repo>https://github.com/webratio/phonegap-plugin-certificate.git</repo>
 
     <engines>
       <engine name="cordova" version=">=3.1.0" /><!-- Needs cordova/urlutil -->

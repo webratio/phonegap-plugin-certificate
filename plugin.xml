@@ -2,7 +2,7 @@
 <!--
 The MIT License (MIT)
 
-Copyright (c) 2014 Martin Reinhardt
+Copyright (c) 2015 Martin Reinhardt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,20 +24,22 @@ SOFTWARE.
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="de.martinreinhardt.cordova.plugins.certificates"
-      version="0.4.0.1wr">
+           id="cordova-plugin-certificates"
+      version="0.6.3.1wr">
 
-    <name>CDVCertificate</name>
+    <name>Certificate Plugin</name>
     <description>
         Cordova Certificate Plugin
     </description>
     <author>Martin Reinhardt</author>
     <license>MIT</license>
     <keywords>cordova,certificates,ssl</keywords>
-    <repo>https://github.com/webratio/phonegap-plugin-certificate.git</repo>
+    <repo>https://github.com/hypery2k/cordova-certificate-plugin.git</repo>
+    <issue>https://github.com/hypery2k/cordova-certificate-plugin/issues</issue>
 
     <engines>
-      <engine name="cordova" version=">=3.1.0" /><!-- Needs cordova/urlutil -->
+      <engine name="cordova-android" version=">=4.1.0" />
+      <engine name="cordova-ios" version=">=3.4.0" />
     </engines>
 
     <js-module src="www/certificate.js" name="Certificates">
